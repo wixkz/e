@@ -1,0 +1,126 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local arctic = Instance.new("TextButton")
+local faded = Instance.new("TextButton")
+local beamedware = Instance.new("TextButton")
+local crash = Instance.new("TextButton")
+local autofarm = Instance.new("TextButton")
+local boxware = Instance.new("TextButton")
+local rayx = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+main.Position = UDim2.new(0.584365308, 0, 0.613496959, 0)
+main.Size = UDim2.new(0, 429, 0, 278)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+label.BorderColor3 = Color3.fromRGB(27, 42, 53)
+label.Size = UDim2.new(0, 429, 0, 50)
+label.Font = Enum.Font.SciFi
+label.Text = "wizhub v2"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 17.000
+
+arctic.Name = "arctic"
+arctic.Parent = main
+arctic.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+arctic.Position = UDim2.new(0, 0, 0.201612905, 0)
+arctic.Size = UDim2.new(0, 166, 0, 37)
+arctic.Font = Enum.Font.SciFi
+arctic.Text = "arctic"
+arctic.TextColor3 = Color3.fromRGB(0, 0, 0)
+arctic.TextSize = 17.000
+arctic.TextWrapped = true
+arctic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+end)
+
+faded.Name = "faded"
+faded.Parent = main
+faded.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+faded.Position = UDim2.new(0, 0, 0.379032254, 0)
+faded.Size = UDim2.new(0, 166, 0, 36)
+faded.Font = Enum.Font.SciFi
+faded.Text = "faded"
+faded.TextColor3 = Color3.fromRGB(0, 0, 0)
+faded.TextSize = 17.000
+faded.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+beamedware.Name = "beamedware"
+beamedware.Parent = main
+beamedware.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+beamedware.Position = UDim2.new(0, 0, 0.54838711, 0)
+beamedware.Size = UDim2.new(0, 166, 0, 38)
+beamedware.Font = Enum.Font.SciFi
+beamedware.Text = "beamedware"
+beamedware.TextColor3 = Color3.fromRGB(0, 0, 0)
+beamedware.TextSize = 17.000
+beamedware.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/BeamedWare/main/BeamedWare", true))()
+end)
+
+crash.Name = "crash"
+crash.Parent = main
+crash.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+crash.Position = UDim2.new(0, 0, 0.708255887, 0)
+crash.Size = UDim2.new(0, 166, 0, 37)
+crash.Font = Enum.Font.SciFi
+crash.Text = "crash"
+crash.TextColor3 = Color3.fromRGB(0, 0, 0)
+crash.TextSize = 17.000
+crash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
+end)
+
+autofarm.Name = "autofarm"
+autofarm.Parent = main
+autofarm.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+autofarm.Position = UDim2.new(0, 0, 0.873723507, 0)
+autofarm.Size = UDim2.new(0, 166, 0, 35)
+autofarm.Font = Enum.Font.SciFi
+autofarm.Text = "autofarm"
+autofarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+autofarm.TextSize = 14.000
+autofarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rapnz/scripts/master/DaHoodFarm.lua"))()
+end)
+
+boxware.Name = "boxware"
+boxware.Parent = main
+boxware.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+boxware.Position = UDim2.new(0.400932401, 0, 0.201438844, 0)
+boxware.Size = UDim2.new(0, 257, 0, 37)
+boxware.Font = Enum.Font.SciFi
+boxware.Text = "boxware"
+boxware.TextColor3 = Color3.fromRGB(0, 0, 0)
+boxware.TextSize = 17.000
+boxedware.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/crypthook/some-shit-script-crack/main/boxware"))()
+end)
+
+rayx.Name = "ray x"
+rayx.Parent = main
+rayx.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+rayx.Position = UDim2.new(0.400932401, 0, 0.382629395, 0)
+rayx.Size = UDim2.new(0, 257, 0, 35)
+rayx.Font = Enum.Font.SciFi
+rayx.Text = "ray x"
+rayx.TextColor3 = Color3.fromRGB(0, 0, 0)
+rayx.TextSize = 17.000
+rayx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/urmomugly/lua-project/main/Script%26/RAYXV001'))()
+end)
